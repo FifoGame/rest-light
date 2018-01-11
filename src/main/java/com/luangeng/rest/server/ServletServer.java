@@ -1,4 +1,4 @@
-package com.luangeng.servlet.server;
+package com.luangeng.rest.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -15,11 +15,6 @@ import io.netty.handler.codec.http.HttpResponseEncoder;
  * Created by LG on 2017/12/4.
  */
 public class ServletServer {
-
-    public static void main(String[] args) throws Exception {
-        int port = 8080;
-        new ServletServer().run(port);
-    }
 
     public void run(final int port) throws Exception {
         EventLoopGroup bossGroup = new NioEventLoopGroup();

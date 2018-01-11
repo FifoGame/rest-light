@@ -1,4 +1,4 @@
-package com.luangeng.servlet.impl;
+package com.luangeng.rest.impl;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.Cookie;

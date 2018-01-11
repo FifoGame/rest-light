@@ -1,4 +1,4 @@
-package com.luangeng.servlet.impl;
+package com.luangeng.rest.impl;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
@@ -7,7 +7,7 @@ import java.util.Enumeration;
 /**
  * Created by LG on 2017/12/4.
  */
-public class SerConfig implements ServletConfig {
+public class ServletCfg implements ServletConfig {
     @Override
     public String getServletName() {
         return null;

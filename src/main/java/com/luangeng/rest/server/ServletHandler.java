@@ -1,8 +1,8 @@
-package com.luangeng.servlet.server;
+package com.luangeng.rest.server;
 
-import com.luangeng.servlet.impl.HttpRequest;
-import com.luangeng.servlet.impl.HttpResponse;
-import com.luangeng.servlet.impl.SerConfig;
+import com.luangeng.rest.impl.HttpRequest;
+import com.luangeng.rest.impl.HttpResponse;
+import com.luangeng.rest.impl.ServletCfg;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
@@ -34,7 +34,7 @@ public class ServletHandler extends SimpleChannelInboundHandler<FullHttpRequest>
             return;
         }
 
-        SerConfig config = new SerConfig();
+        ServletCfg config = new ServletCfg();
         servlet.init(config);
 
         HttpRequest request = new HttpRequest(httpRequest);

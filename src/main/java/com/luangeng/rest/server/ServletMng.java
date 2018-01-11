@@ -1,4 +1,4 @@
-package com.luangeng.servlet.server;
+package com.luangeng.rest.server;
 
 import javax.servlet.Servlet;
 import java.util.HashMap;

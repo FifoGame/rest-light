@@ -1,4 +1,4 @@
-package com.luangeng.servlet.servlet;
+package com.luangeng.rest.servlet;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;

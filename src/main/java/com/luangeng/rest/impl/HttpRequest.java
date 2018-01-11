@@ -1,6 +1,6 @@
-package com.luangeng.servlet.impl;
+package com.luangeng.rest.impl;
 
-import com.luangeng.servlet.server.UrlHelper;
+import com.luangeng.rest.server.UrlHelper;
 import io.netty.handler.codec.http.FullHttpRequest;
 import io.netty.handler.codec.http.HttpHeaders;
 import io.netty.handler.codec.http.HttpMethod;
